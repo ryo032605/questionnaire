@@ -1,0 +1,37 @@
+$body-bg: #eff6ff;
+$body-color: #6b7280;
+$font-size-base: 0.9rem;
+$input-btn-padding-x: 1.3rem;
+$input-btn-padding-x-lg: 1.2rem;
+$primary: #3882F6;
+$danger:#ff4136;
+$font-family-base: 'M PLUS Rounded 1c', sans-serif;
+
+@import "bootstrap/bootstrap.scss";
+
+$cLikesGreen: #33d499;
+$cDislikesRed: #f87171;
+
+.login-form {
+    width: 300px;
+}
+
+.min-w-100 {
+    min-width: 100px;
+}
+
+.likes-green {
+    color: $cLikesGreen;
+}
+
+.dislikes-red {
+    color: $cDislikesRed;
+}
+
+.topic {
+    transition: box-shadow .3s;
+
+    &:hover {
+        @extend .shadow;
+    }
+}
